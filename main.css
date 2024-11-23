@@ -6,9 +6,25 @@ html{
 }
 
 h1{
-    padding:100px; 
+    padding:100px;
+    padding-top:5px; 
     margin:100px;
     text-align:center;
+    box-sizing:border-box;
+}
+nav{
+    position: fixed;
+    right:10vw;
+    left:10vw;
+    top:1vw;
+    height:70px;
+    background-color:gray;
+}
+#menu{
+    display:block;
+    text-decoration: none;
+    color:white;
+    margin-right:35px;
 }
 
 body{
